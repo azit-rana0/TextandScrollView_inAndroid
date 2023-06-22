@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/rana"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/largeText"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:textSize="15dp"
+        android:text="An Android developer is a software developer who specializes in creating applications for the Android operating system. Android is a popular mobile platform developed by Google, used by millions of people worldwide on smartphones, tablets, smartwatches, and other devices.
+As an Android developer, your primary role is to design, develop, and maintain Android applications using the Java or Kotlin programming languages. You work with the Android Software Development Kit (SDK) and various development tools to create user-friendly, innovative, and high-performance mobile applications."
+        />
+
+    </ScrollView>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/rana"
+        />
+
+
+</LinearLayout>
